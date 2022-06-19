@@ -1,6 +1,6 @@
 import { Merge } from "type-fest";
 import { z } from "zod";
-// @ts-ignore
+
 import { DataModel, FirestoreModel, rules, timestampType } from "fireschema";
 
 export const UserType = z.object({
